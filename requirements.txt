@@ -1,0 +1,8 @@
+playwright==1.49.0
+playwright-stealth==1.0.6
+pydantic==2.9.2
+rapidfuzz==3.10.0
+pandas==2.2.3
+streamlit==1.40.0
+plotly==5.24.1
+sqlalchemy==2.0.36
