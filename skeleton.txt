@@ -1,0 +1,13 @@
+shela-dashboard/
+├── requirements.txt
+├── config.py                  # Shela URLs, society canonical list
+├── collectors/
+│   ├── housing.py
+│   ├── magicbricks.py
+│   └── common.py              # Playwright stealth setup
+├── normalize/
+│   ├── society_resolver.py    # fuzzy matching
+│   └── schema.py              # Pydantic models
+├── db.py                      # SQLite init + upsert
+├── pipeline.py                # main runner
+└── app.py                     # Streamlit dashboard
